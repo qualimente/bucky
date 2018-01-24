@@ -4,9 +4,13 @@ import (
 	log "github.com/sirupsen/logrus"
 	"github.com/urfave/cli"
 	"time"
+	"math/rand"
+	"github.com/icrowley/fake"
+	"fmt"
 )
 
 func RunPeriodically(c *cli.Context) error {
+	rand.Seed(time.Now().UTC().UnixNano())
 
 	log.SetFormatter(_makeFormatter(c.String("format")))
 
@@ -29,10 +33,13 @@ func RunPeriodically(c *cli.Context) error {
 }
 
 func PrintMessages(messageCount uint64) {
+	tNanos := time.Now().UTC().UnixNano()
 	for i := uint64(0); i < messageCount; i++ {
+		msgId := fmt.Sprintf("%d-%d", tNanos, i)
 		log.WithFields(log.Fields{
 			"type": "log",
-		}).Info("Every heartbeat bears your name")
+			"msgId": msgId,
+		}).Info(fake.SentencesN(rand.Intn(10)))
 	}
 }
 

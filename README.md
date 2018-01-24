@@ -11,10 +11,11 @@ Bucky is a simple program to generate logs for the purpose of testing log-shippi
 3. Run the software `bin/darwin/amd64/bucky generate`
 ```
 $ bin/darwin/amd64/bucky generate
-{"appName":"bucky","level":"info","msg":"Running periodically","time":"2018-01-23T18:23:07-07:00"}
-{"level":"info","msg":"Every heartbeat bears your name","time":"2018-01-23T18:23:07-07:00","type":"log"}
-{"level":"info","msg":"Every heartbeat bears your name","time":"2018-01-23T18:23:08-07:00","type":"log"}
-{"level":"info","msg":"Every heartbeat bears your name","time":"2018-01-23T18:23:09-07:00","type":"log"}
+{"appName":"bucky","level":"info","msg":"Running periodically","time":"2018-01-24T08:58:03-07:00"}
+{"level":"info","msg":"error perspiciatis omnis. quia accusamus nam itaque magnam aut. culpa aut eveniet quia voluptates in voluptate dicta. repellat magni sequi et eveniet. pariatur laboriosam accusantium et. dolores id eveniet facere error corporis sunt. rem dolores error et. amet debitis repudiandae qui. ullam incidunt doloribus molestiae doloremque.","msgId":"1516809483476061000-0","time":"2018-01-24T08:58:03-07:00","type":"log"}
+{"level":"info","msg":"numquam hic soluta dolor voluptas error! quia sed voluptatem. et fugiat exercitationem nemo voluptatem maiores eaque. quis commodi vel aut et est et dolores. qui optio et et quia ad.","msgId":"1516809484479212000-0","time":"2018-01-24T08:58:04-07:00","type":"log"}
+{"level":"info","msg":"adipisci aliquid qui necessitatibus reiciendis error quis temporibus nesciunt. rerum veritatis laboriosam sit. sed nulla similique et dolor maiores sint. nemo ea adipisci magni non. adipisci animi non eius commodi delectus!","msgId":"1516809485483082000-0","time":"2018-01-24T08:58:05-07:00","type":"log"}
+...
 ```
 
 # Building Releases #

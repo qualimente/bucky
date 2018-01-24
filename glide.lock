@@ -1,8 +1,16 @@
-hash: 1232d3aa3d7934a116f5709a054a106c0480d0543d8926a97fe3e376b10766b2
-updated: 2017-08-08T21:30:36.938880351-07:00
+hash: 29bd7ccfde086aa2f26e2211f05b37dafaa87efd4cee7fa5f216866a427d6d08
+updated: 2018-01-24T07:12:10.601853-07:00
 imports:
+- name: github.com/corpix/uarand
+  version: 031be390f409fb4bac8fb299e3bcd101479f89f8
+- name: github.com/icrowley/fake
+  version: e64cc2cf92049a299f359734c6ea76073f2a8b2c
 - name: github.com/sirupsen/logrus
   version: a3f95b5c423586578a4e099b11a46c2479628cac
 - name: github.com/urfave/cli
   version: 0bdeddeeb0f650497d603c4ad7b20cfe685682f6
+- name: golang.org/x/sys
+  version: af50095a40f9041b3b38960738837185c26e9419
+  subpackages:
+  - unix
 testImports: []
