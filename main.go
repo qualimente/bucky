@@ -43,7 +43,7 @@ func main() {
 					Value: 1 * time.Second,
 				}, cli.Uint64Flag{
 					Name:  "count",
-					Usage: "Specify the count of messages emitted per period",
+					Usage: "Specify the count of messages emitted per period (default: 1)",
 					Value: 1,
 				},
 			},
