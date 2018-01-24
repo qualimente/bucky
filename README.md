@@ -45,7 +45,13 @@ OPTIONS:
 
 By default, `bucky` will generate one json message per second.
 
-The `count` parameter is the main tuning knob to use for increasing log message volume.  
+The `count` parameter is the main tuning knob to use for increasing log message volume.
+  
+For example, to generate 100 messages per second, run:
+
+```
+bucky generate --count 100
+```
 
 # Etymology #
 
